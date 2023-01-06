@@ -11,6 +11,8 @@
     padding: 15px;
     font-size: 20px;
     color: #FFFFFF;
+    margin-top: 30px;
+    border: 0px;
 }
 
 .banner {
@@ -35,15 +37,64 @@
     font-size: 65px;
     text-align: center;
     margin-bottom: 20px;
+}
+
+.banner h1 {
     color: #FFFFFF;
 }
 
-.banner-description {
+.description {
     font-family: 'Poppins';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
+    color: #707070;
+}
+
+.banner-description {
     text-align: center;
     color: #FFFFFF;
-    margin-bottom: 30px;
+   
+}
+
+.today-donate {
+    padding: 130px 338px;
+}
+
+.today-donate p {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.boxs {
+    display: flex;
+    gap: 22px;
+    height: 123px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: #707070;
+    margin-bottom: 60px;
+}
+
+.box {
+    padding: 44px 15px;
+    background: #FAFAFA;
+    border-radius: 5px;
+}
+
+.select-box {
+    padding: 44px 15px;
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+    color: #FF5959;
+}
+.amount-form{
+    margin: 0 50px;
+    text-align: center;
+}
+.amount-form p{
+    margin-bottom: 5px;
 }
