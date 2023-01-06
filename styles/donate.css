@@ -104,40 +104,104 @@
 .plan-info {
     margin-bottom: 50px;
 }
-.plan-boxs{
+
+.plan-boxs {
     display: flex;
     gap: 24px;
     margin: 0px 157px;
     height: 352px;
 }
+
 .plan-box {
     padding: 63px 22px 54px;
     background: rgba(255, 89, 89, 0.1);
     border-radius: 5px;
 }
-.plan-box1{
+
+.plan-box1 {
     padding: 63px 22px 54px;
     background: rgba(79, 157, 166, 0.1);
     border-radius: 5px;
 }
-.plan-box h3, .plan-box1 h3{
+
+.plan-box h3,
+.plan-box1 h3 {
     margin: 31px 0px 18px;
 }
-.they-lives{
-    margin: 130px 252px 20px 156px ;
+
+.they-lives {
+    margin: 130px 252px 20px 156px;
 }
-.live{
+
+.live {
     display: flex;
     gap: 82px;
-    height:500px;
+    height: 500px;
     align-items: center;
     margin-bottom: 100px;
 }
+
 .live h1 {
     font-weight: 700;
     font-size: 45px;
     margin-bottom: 20px;
 }
-.live img{
+
+.live img {
     border-radius: 5px;
+}
+
+.update-info {
+    text-align: center;
+}
+
+.update-box {
+    height: 200px;
+    background: #FFF4D6;
+    margin: 50px 316px 130px;
+    display: flex;
+    align-items: center;
+}
+
+.update-box form {
+    margin: 0px 20%;
+}
+
+.update-box form button {
+    background: #FF5959;
+    border-radius: 0px 5px 5px 0px;
+    padding: 15px;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: 0px;
+}
+
+.update-box form input {
+    background: #D9D9D9;
+    width: 350px;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.footer {
+    height: 150px;
+    background: #0B0D17;
+    text-align: center;
+  
+}
+
+.footer h2 {
+    margin-top: 50px;
+    font-size: 36px;
+    color: #FF5959;
+}
+
+.footer p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+   
+    font-size: 14px;
+    color: #D9DBE1;
 }
