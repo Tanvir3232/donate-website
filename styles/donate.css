@@ -123,3 +123,21 @@
 .plan-box h3, .plan-box1 h3{
     margin: 31px 0px 18px;
 }
+.they-lives{
+    margin: 130px 252px 20px 156px ;
+}
+.live{
+    display: flex;
+    gap: 82px;
+    height:500px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.live h1 {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.live img{
+    border-radius: 5px;
+}
