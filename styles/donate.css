@@ -53,7 +53,7 @@
 .banner-description {
     text-align: center;
     color: #FFFFFF;
-   
+
 }
 
 .today-donate {
@@ -91,10 +91,35 @@
     border-radius: 5px;
     color: #FF5959;
 }
-.amount-form{
-    margin: 0 50px;
+
+.amount-form {
+    margin: 0 45px;
     text-align: center;
 }
-.amount-form p{
+
+.amount-form p {
     margin-bottom: 5px;
+}
+
+.plan-info {
+    margin-bottom: 50px;
+}
+.plan-boxs{
+    display: flex;
+    gap: 24px;
+    margin: 0px 157px;
+    height: 352px;
+}
+.plan-box {
+    padding: 63px 22px 54px;
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+}
+.plan-box1{
+    padding: 63px 22px 54px;
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+}
+.plan-box h3, .plan-box1 h3{
+    margin: 31px 0px 18px;
 }
